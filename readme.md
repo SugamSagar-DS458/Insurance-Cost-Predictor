@@ -109,7 +109,7 @@ Because health insurance claims are heavily right-skewed, the target variable `c
 ## ☁️ Deployment Guide (Streamlit Cloud)
 
 1. Push your repository to GitHub (ensure repository visibility is set to **Public**).
-2. Visit [Streamlit Community Cloud](https://share.streamlit.io/) and log in with GitHub.
+2. Visit [Streamlit Community Cloud](https://insurance-cost-predictor-sugamsagar-ds458.streamlit.app/) and log in with GitHub.
 3. Click **New app** and configure:
    - **Repository**: `<your-username>/<your-repo-name>`
    - **Branch**: `main`
