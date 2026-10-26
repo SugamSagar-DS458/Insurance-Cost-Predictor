@@ -12,7 +12,7 @@ Predicting medical insurance charges accurately is crucial for both insurance pr
 - Multi-model evaluation comparing Linear Regression, Decision Trees, Random Forests, SVR, KNN, and Gradient Boosting.
 - Overfitting diagnosis through Train vs. Test $R^2$, RMSE, and MAE benchmarks.
 - Hyperparameter tuning using `GridSearchCV`.
-- An interactive web application displaying cost estimates in both **US Dollars (USD)** and **Indian Rupees (INR)** with an automated BMI calculator.
+- An interactive web application displaying cost estimates in both **US Dollars (USD)** with an automated BMI calculator.
 
 ---
 
@@ -20,7 +20,7 @@ Predicting medical insurance charges accurately is crucial for both insurance pr
 
 - **Personalized Estimation**: Input applicant details and receive customized cost outputs.
 - **Dynamic BMI Calculation**: Computes Body Mass Index in real-time from height (cm) and weight (kg), accompanied by clinical categories (Underweight, Normal, Overweight, Obese).
-- **Dual Currency Support**: Displays estimated charges in **USD ($)** and **INR (₹)**.
+- **Dual Currency Support**: Displays estimated charges in **USD ($)** .
 - **Model Caching**: Uses `@st.cache_resource` to train and cache the model pipeline on startup for low-latency inferences.
 
 ---
@@ -78,8 +78,8 @@ Because health insurance claims are heavily right-skewed, the target variable `c
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
+   git clone https://github.com/SugamSagar-DS458/Insurance-Cost-Predictor.git
+   cd <Insurance-Cost-Predictor>
    ```
 
 2. **Create and activate a virtual environment:**
@@ -111,7 +111,7 @@ Because health insurance claims are heavily right-skewed, the target variable `c
 1. Push your repository to GitHub (ensure repository visibility is set to **Public**).
 2. Visit [Streamlit Community Cloud](https://insurance-cost-predictor-sugamsagar-ds458.streamlit.app/) and log in with GitHub.
 3. Click **New app** and configure:
-   - **Repository**: `<your-username>/<your-repo-name>`
+   - **Repository**: `<SugamSagar-DS458>/<Insurance-Cost-Predictor>`
    - **Branch**: `main`
    - **Main file path**: `Health_Insurance_App.py`
 4. Click **Deploy!**.
